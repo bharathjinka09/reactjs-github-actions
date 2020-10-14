@@ -4,7 +4,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>React Github Actions</h1>  
+        <h1 className='text-center'>React Github Actions</h1>  
 
       </header>
     </div>
