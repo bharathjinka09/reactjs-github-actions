@@ -1,6 +1,7 @@
 {
   "name": "react-github-actions",
   "version": "0.1.0",
+  "homepage": "https://bharathjinka09.github.io/reactjs-github-actions",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
