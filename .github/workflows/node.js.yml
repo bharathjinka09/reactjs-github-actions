@@ -24,7 +24,7 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - run: npm i
     - run: npm run build --if-present
-    - run: 
+    - run: | 
         git config user.email ${{secrets.EMAIL}}
         git config user.name ${{secrets.USERNAME}}
         git remote set-url origin https://${{secrets.PERSONAL_ACCESS_TOKEN}}@github.com/${{secrets.USERNAME}}/reactjs-github-actions.git
